@@ -1,9 +1,10 @@
 package dynamicprogramming
+
 import (
 	"testing"
 )
 
-func TestLongestAlternatingSubsequence(t testing.T) {
-
+func TestLongestAlternatingSubsequence(t *testing.T) {
+	
 }
 

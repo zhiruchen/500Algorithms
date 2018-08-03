@@ -1,7 +1,6 @@
 package array
 
-// 4SumProblemQuadrupletsWithGivenSum http://www.techiedelight.com/4-sum-problem/
-func 4SumProblemQuadrupletsWithGivenSum() {
+// FourSumProblemQuadrupletsWithGivenSum http://www.techiedelight.com/4-sum-problem/
+func FourSumProblemQuadrupletsWithGivenSum() {
 
 }
-

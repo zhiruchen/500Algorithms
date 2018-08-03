@@ -1,9 +1,10 @@
 package array
+
 import (
 	"testing"
 )
 
-func TestFindMaximumProductOfTwoIntegersInAnArray(t testing.T) {
-
+func TestFindMaximumProductOfTwoIntegersInAnArray(t *testing.T) {
+	
 }
 

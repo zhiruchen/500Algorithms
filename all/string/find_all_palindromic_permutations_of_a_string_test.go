@@ -1,9 +1,10 @@
 package string
+
 import (
 	"testing"
 )
 
-func TestFindAllPalindromicPermutationsOfAString(t testing.T) {
-
+func TestFindAllPalindromicPermutationsOfAString(t *testing.T) {
+	
 }
 

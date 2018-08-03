@@ -1,9 +1,10 @@
 package array
+
 import (
 	"testing"
 )
 
-func TestFindMaximumSumOfSubsequenceWithNoAdjacentElements(t testing.T) {
-
+func TestFindMaximumSumOfSubsequenceWithNoAdjacentElements(t *testing.T) {
+	
 }
 

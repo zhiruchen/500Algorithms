@@ -1,9 +1,10 @@
 package string
+
 import (
 	"testing"
 )
 
-func TestRemoveAdjacentDuplicateCharactersFromAString(t testing.T) {
-
+func TestRemoveAdjacentDuplicateCharactersFromAString(t *testing.T) {
+	
 }
 

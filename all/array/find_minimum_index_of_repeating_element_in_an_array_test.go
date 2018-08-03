@@ -1,9 +1,10 @@
 package array
+
 import (
 	"testing"
 )
 
-func TestFindMinimumIndexOfRepeatingElementInAnArray(t testing.T) {
-
+func TestFindMinimumIndexOfRepeatingElementInAnArray(t *testing.T) {
+	
 }
 

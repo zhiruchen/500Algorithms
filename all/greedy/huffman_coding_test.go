@@ -1,9 +1,10 @@
 package greedy
+
 import (
 	"testing"
 )
 
-func TestHuffmanCoding(t testing.T) {
-
+func TestHuffmanCoding(t *testing.T) {
+	
 }
 

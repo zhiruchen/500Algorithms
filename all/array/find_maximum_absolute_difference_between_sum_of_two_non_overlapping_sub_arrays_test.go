@@ -1,9 +1,10 @@
 package array
+
 import (
 	"testing"
 )
 
-func TestFindMaximumAbsoluteDifferenceBetweenSumOfTwoNonOverlappingSubArrays(t testing.T) {
-
+func TestFindMaximumAbsoluteDifferenceBetweenSumOfTwoNonOverlappingSubArrays(t *testing.T) {
+	
 }
 

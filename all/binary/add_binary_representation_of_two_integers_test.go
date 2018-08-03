@@ -1,9 +1,10 @@
 package binary
+
 import (
 	"testing"
 )
 
-func TestAddBinaryRepresentationOfTwoIntegers(t testing.T) {
-
+func TestAddBinaryRepresentationOfTwoIntegers(t *testing.T) {
+	
 }
 

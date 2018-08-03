@@ -1,9 +1,10 @@
 package array
+
 import (
 	"testing"
 )
 
-func TestFindMinimumDifferenceBetweenIndexOfTwoGivenElementsPresentInTheArray(t testing.T) {
-
+func TestFindMinimumDifferenceBetweenIndexOfTwoGivenElementsPresentInTheArray(t *testing.T) {
+	
 }
 

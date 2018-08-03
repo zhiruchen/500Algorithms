@@ -1,9 +1,10 @@
 package array
+
 import (
 	"testing"
 )
 
-func TestReplaceEachElementOfArrayWithProductOfEveryOtherElementWithoutUsingOperator(t testing.T) {
-
+func TestReplaceEachElementOfArrayWithProductOfEveryOtherElementWithoutUsingOperator(t *testing.T) {
+	
 }
 

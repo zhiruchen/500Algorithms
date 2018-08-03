@@ -1,9 +1,10 @@
 package array
+
 import (
 	"testing"
 )
 
-func TestPrintAllCombinationOfNumbersFrom1ToNHavingSumN(t testing.T) {
-
+func TestPrintAllCombinationOfNumbersFrom1ToNHavingSumN(t *testing.T) {
+	
 }
 

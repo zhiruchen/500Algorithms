@@ -1,9 +1,10 @@
 package backtracking
+
 import (
 	"testing"
 )
 
-func TestMagnetPuzzle(t testing.T) {
-
+func TestMagnetPuzzle(t *testing.T) {
+	
 }
 

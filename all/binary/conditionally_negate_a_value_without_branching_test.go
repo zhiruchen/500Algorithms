@@ -1,9 +1,10 @@
 package binary
+
 import (
 	"testing"
 )
 
-func TestConditionallyNegateAValueWithoutBranching(t testing.T) {
-
+func TestConditionallyNegateAValueWithoutBranching(t *testing.T) {
+	
 }
 

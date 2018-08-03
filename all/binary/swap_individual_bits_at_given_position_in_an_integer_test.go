@@ -1,9 +1,10 @@
 package binary
+
 import (
 	"testing"
 )
 
-func TestSwapIndividualBitsAtGivenPositionInAnInteger(t testing.T) {
-
+func TestSwapIndividualBitsAtGivenPositionInAnInteger(t *testing.T) {
+	
 }
 

@@ -1,9 +1,10 @@
 package dynamicprogramming
+
 import (
 	"testing"
 )
 
-func TestFindOptimalCostToConstructBinarySearchTree(t testing.T) {
-
+func TestFindOptimalCostToConstructBinarySearchTree(t *testing.T) {
+	
 }
 

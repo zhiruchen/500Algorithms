@@ -1,7 +1,6 @@
 package array
 
-// 01KnapsackProblem http://www.techiedelight.com/0-1-knapsack-problem/
-func 01KnapsackProblem() {
+// ZeroOneKnapsackProblem http://www.techiedelight.com/0-1-knapsack-problem/
+func ZeroOneKnapsackProblem() {
 
 }
-

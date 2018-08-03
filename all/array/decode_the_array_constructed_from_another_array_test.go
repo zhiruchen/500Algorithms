@@ -1,9 +1,10 @@
 package array
+
 import (
 	"testing"
 )
 
-func TestDecodeTheArrayConstructedFromAnotherArray(t testing.T) {
-
+func TestDecodeTheArrayConstructedFromAnotherArray(t *testing.T) {
+	
 }
 

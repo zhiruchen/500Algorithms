@@ -1,9 +1,10 @@
 package array
+
 import (
 	"testing"
 )
 
-func TestFindPairWithGivenSumInTheArray(t testing.T) {
-
+func TestFindPairWithGivenSumInTheArray(t *testing.T) {
+	
 }
 

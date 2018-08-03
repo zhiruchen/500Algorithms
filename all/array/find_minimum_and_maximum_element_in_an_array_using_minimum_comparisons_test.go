@@ -1,9 +1,10 @@
 package array
+
 import (
 	"testing"
 )
 
-func TestFindMinimumAndMaximumElementInAnArrayUsingMinimumComparisons(t testing.T) {
-
+func TestFindMinimumAndMaximumElementInAnArrayUsingMinimumComparisons(t *testing.T) {
+	
 }
 

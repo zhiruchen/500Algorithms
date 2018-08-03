@@ -1,9 +1,10 @@
 package dynamicprogramming
+
 import (
 	"testing"
 )
 
-func TestShortestCommonSupersequenceIntroductionSCSLength(t testing.T) {
-
+func TestShortestCommonSupersequenceIntroductionSCSLength(t *testing.T) {
+	
 }
 

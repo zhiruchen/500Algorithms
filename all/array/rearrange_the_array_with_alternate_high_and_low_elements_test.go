@@ -1,9 +1,10 @@
 package array
+
 import (
 	"testing"
 )
 
-func TestRearrangeTheArrayWithAlternateHighAndLowElements(t testing.T) {
-
+func TestRearrangeTheArrayWithAlternateHighAndLowElements(t *testing.T) {
+	
 }
 

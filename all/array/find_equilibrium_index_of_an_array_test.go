@@ -1,9 +1,10 @@
 package array
+
 import (
 	"testing"
 )
 
-func TestFindEquilibriumIndexOfAnArray(t testing.T) {
-
+func TestFindEquilibriumIndexOfAnArray(t *testing.T) {
+	
 }
 

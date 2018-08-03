@@ -1,9 +1,10 @@
 package array
+
 import (
 	"testing"
 )
 
-func TestReverseEveryConsecutiveMElementsOfTheGivenSubarray(t testing.T) {
-
+func TestReverseEveryConsecutiveMElementsOfTheGivenSubarray(t *testing.T) {
+	
 }
 

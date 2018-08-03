@@ -1,9 +1,10 @@
 package array
+
 import (
 	"testing"
 )
 
-func TestMaximizeValueOfTheExpression(t testing.T) {
-
+func TestMaximizeValueOfTheExpression(t *testing.T) {
+	
 }
 

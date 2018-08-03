@@ -1,9 +1,10 @@
 package puzzles
+
 import (
 	"testing"
 )
 
-func TestGenerateFairResultsFromABiasedCoin(t testing.T) {
-
+func TestGenerateFairResultsFromABiasedCoin(t *testing.T) {
+	
 }
 

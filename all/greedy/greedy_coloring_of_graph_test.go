@@ -1,9 +1,10 @@
 package greedy
+
 import (
 	"testing"
 )
 
-func TestGreedyColoringOfGraph(t testing.T) {
-
+func TestGreedyColoringOfGraph(t *testing.T) {
+	
 }
 

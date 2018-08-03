@@ -1,9 +1,10 @@
 package string
+
 import (
 	"testing"
 )
 
-func TestFindAllNDigitBinaryNumbersWithEqualSumOfBitsInItsTwoHalves(t testing.T) {
-
+func TestFindAllNDigitBinaryNumbersWithEqualSumOfBitsInItsTwoHalves(t *testing.T) {
+	
 }
 

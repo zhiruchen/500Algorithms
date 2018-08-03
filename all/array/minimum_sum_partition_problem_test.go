@@ -1,9 +1,10 @@
 package array
+
 import (
 	"testing"
 )
 
-func TestMinimumSumPartitionProblem(t testing.T) {
-
+func TestMinimumSumPartitionProblem(t *testing.T) {
+	
 }
 

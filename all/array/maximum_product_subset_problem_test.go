@@ -1,9 +1,10 @@
 package array
+
 import (
 	"testing"
 )
 
-func TestMaximumProductSubsetProblem(t testing.T) {
-
+func TestMaximumProductSubsetProblem(t *testing.T) {
+	
 }
 

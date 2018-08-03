@@ -1,9 +1,10 @@
 package binarytree
+
 import (
 	"testing"
 )
 
-func TestConvertGivenBinaryTreeToFullTreeByRemovingHalfNodes(t testing.T) {
-
+func TestConvertGivenBinaryTreeToFullTreeByRemovingHalfNodes(t *testing.T) {
+	
 }
 

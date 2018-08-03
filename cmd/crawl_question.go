@@ -12,7 +12,7 @@ import (
 	"github.com/parnurzeal/gorequest"
 )
 
-const dir = "~/go/src/github.com/zhiruchen/500Algorithms/all"
+const dir = "/Users/zhiruchen/go/src/github.com/zhiruchen/500Algorithms/all"
 
 func main() {
 	runtime.GOMAXPROCS(8)
@@ -73,23 +73,34 @@ func %s() {
 
 `
 	tmplTest := `package %s
+
 import (
 	"testing"
 )
 
-func Test%s(t testing.T) {
-
+func Test%s(t *testing.T) {
+	
 }
 
 `
 	funcName := strings.Title(name)
-	for _, syb := range []string{" ", "|", "-", "&", "(", ")", "/"} {
-		funcName = strings.Replace(funcName, syb, "", -1)
+	chs := []string{" ", "|", "-", "&", "(", ")", "/", "’", ",", "–", "C++", "++", "[", "]", ".", "'"}
+	for _, syb := range chs {
+		if syb == "C++" {
+			funcName = strings.Replace(funcName, syb, "Cplusplus", -1)
+		} else {
+			funcName = strings.Replace(funcName, syb, "", -1)
+		}
 	}
 	funcName = strings.TrimRight(funcName, "_")
 
 	fileName := strings.ToLower(name)
-	for _, syb := range []string{" ", "|", "-", "&", "(", ")", "/"} {
+	for _, syb := range chs {
+		if syb == "’" || syb == "," || syb == "[" || syb == "]" || syb == "++" || syb == "." || syb == "'" {
+			fileName = strings.Replace(fileName, syb, "", -1)
+			continue
+		}
+
 		fileName = strings.Replace(fileName, syb, "_", -1)
 	}
 	fileName = strings.TrimRight(fileName, "_")

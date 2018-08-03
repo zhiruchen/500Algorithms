@@ -1,9 +1,10 @@
 package bst
+
 import (
 	"testing"
 )
 
-func TestInsertionInBST(t testing.T) {
-
+func TestInsertionInBST(t *testing.T) {
+	
 }
 

@@ -1,9 +1,10 @@
 package linkedlist
+
 import (
 	"testing"
 )
 
-func TestLinkedListImplementationPart2(t testing.T) {
-
+func TestLinkedListImplementationPart2(t *testing.T) {
+	
 }
 

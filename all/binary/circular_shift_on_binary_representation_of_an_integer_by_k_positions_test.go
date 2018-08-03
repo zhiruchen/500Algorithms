@@ -1,9 +1,10 @@
 package binary
+
 import (
 	"testing"
 )
 
-func TestCircularShiftOnBinaryRepresentationOfAnIntegerByKPositions(t testing.T) {
-
+func TestCircularShiftOnBinaryRepresentationOfAnIntegerByKPositions(t *testing.T) {
+	
 }
 

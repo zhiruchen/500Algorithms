@@ -1,9 +1,10 @@
 package greedy
+
 import (
 	"testing"
 )
 
-func TestShortestSuperstringProblem(t testing.T) {
-
+func TestShortestSuperstringProblem(t *testing.T) {
+	
 }
 

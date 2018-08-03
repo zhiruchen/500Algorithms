@@ -1,9 +1,10 @@
 package array
+
 import (
 	"testing"
 )
 
-func TestFindMaximumLengthSequenceOfContinuousOnesUsingSlidingWindow(t testing.T) {
-
+func TestFindMaximumLengthSequenceOfContinuousOnesUsingSlidingWindow(t *testing.T) {
+	
 }
 

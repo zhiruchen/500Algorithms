@@ -1,9 +1,10 @@
 package array
+
 import (
 	"testing"
 )
 
-func TestFindMaximumProductSubarrayInAGivenArray(t testing.T) {
-
+func TestFindMaximumProductSubarrayInAGivenArray(t *testing.T) {
+	
 }
 

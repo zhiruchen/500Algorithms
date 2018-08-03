@@ -1,9 +1,10 @@
 package array
+
 import (
 	"testing"
 )
 
-func TestFindThePeakElementInAnArray(t testing.T) {
-
+func TestFindThePeakElementInAnArray(t *testing.T) {
+	
 }
 

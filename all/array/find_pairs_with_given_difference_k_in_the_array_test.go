@@ -1,9 +1,10 @@
 package array
+
 import (
 	"testing"
 )
 
-func TestFindPairsWithGivenDifferenceKInTheArray(t testing.T) {
-
+func TestFindPairsWithGivenDifferenceKInTheArray(t *testing.T) {
+	
 }
 

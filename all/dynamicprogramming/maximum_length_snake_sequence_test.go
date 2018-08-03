@@ -1,9 +1,10 @@
 package dynamicprogramming
+
 import (
 	"testing"
 )
 
-func TestMaximumLengthSnakeSequence(t testing.T) {
-
+func TestMaximumLengthSnakeSequence(t *testing.T) {
+	
 }
 

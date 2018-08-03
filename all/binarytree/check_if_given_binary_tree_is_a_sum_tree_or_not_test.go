@@ -1,9 +1,10 @@
 package binarytree
+
 import (
 	"testing"
 )
 
-func TestCheckIfGivenBinaryTreeIsASumTreeOrNot(t testing.T) {
-
+func TestCheckIfGivenBinaryTreeIsASumTreeOrNot(t *testing.T) {
+	
 }
 

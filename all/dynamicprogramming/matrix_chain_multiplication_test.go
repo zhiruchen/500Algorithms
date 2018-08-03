@@ -1,9 +1,10 @@
 package dynamicprogramming
+
 import (
 	"testing"
 )
 
-func TestMatrixChainMultiplication(t testing.T) {
-
+func TestMatrixChainMultiplication(t *testing.T) {
+	
 }
 

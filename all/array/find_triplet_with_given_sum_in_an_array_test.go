@@ -1,9 +1,10 @@
 package array
+
 import (
 	"testing"
 )
 
-func TestFindTripletWithGivenSumInAnArray(t testing.T) {
-
+func TestFindTripletWithGivenSumInAnArray(t *testing.T) {
+	
 }
 

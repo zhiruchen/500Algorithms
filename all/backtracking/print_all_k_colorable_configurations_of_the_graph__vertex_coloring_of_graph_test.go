@@ -1,9 +1,10 @@
 package backtracking
+
 import (
 	"testing"
 )
 
-func TestPrintAllKColorableConfigurationsOfTheGraphVertexColoringOfGraph(t testing.T) {
-
+func TestPrintAllKColorableConfigurationsOfTheGraphVertexColoringOfGraph(t *testing.T) {
+	
 }
 

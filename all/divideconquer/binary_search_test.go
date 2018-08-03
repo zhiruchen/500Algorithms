@@ -1,9 +1,10 @@
 package divideconquer
+
 import (
 	"testing"
 )
 
-func TestBinarySearch(t testing.T) {
-
+func TestBinarySearch(t *testing.T) {
+	
 }
 

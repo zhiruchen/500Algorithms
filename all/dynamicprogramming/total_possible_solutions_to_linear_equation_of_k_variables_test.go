@@ -1,9 +1,10 @@
 package dynamicprogramming
+
 import (
 	"testing"
 )
 
-func TestTotalPossibleSolutionsToLinearEquationOfKVariables(t testing.T) {
-
+func TestTotalPossibleSolutionsToLinearEquationOfKVariables(t *testing.T) {
+	
 }
 

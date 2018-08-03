@@ -1,9 +1,10 @@
 package puzzles
+
 import (
 	"testing"
 )
 
-func TestGenerateRandomInputFromAnArrayAccordingToGivenProbabilities(t testing.T) {
-
+func TestGenerateRandomInputFromAnArrayAccordingToGivenProbabilities(t *testing.T) {
+	
 }
 

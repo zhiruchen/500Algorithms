@@ -1,9 +1,10 @@
 package array
+
 import (
 	"testing"
 )
 
-func TestPrintAllTripletsThatFormsArithmeticProgression(t testing.T) {
-
+func TestPrintAllTripletsThatFormsArithmeticProgression(t *testing.T) {
+	
 }
 

@@ -1,9 +1,10 @@
 package divideconquer
+
 import (
 	"testing"
 )
 
-func TestInterpolationSearch(t testing.T) {
-
+func TestInterpolationSearch(t *testing.T) {
+	
 }
 

@@ -1,9 +1,10 @@
 package array
+
 import (
 	"testing"
 )
 
-func TestRodCutting(t testing.T) {
-
+func TestRodCutting(t *testing.T) {
+	
 }
 

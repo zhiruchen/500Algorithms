@@ -1,9 +1,10 @@
 package divideconquer
+
 import (
 	"testing"
 )
 
-func TestFindMinimumAndMaximumElementInAnArrayByDoingMinimumComparisons(t testing.T) {
-
+func TestFindMinimumAndMaximumElementInAnArrayByDoingMinimumComparisons(t *testing.T) {
+	
 }
 

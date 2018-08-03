@@ -1,9 +1,10 @@
 package string
+
 import (
 	"testing"
 )
 
-func TestDetermineIfCharactersOfAStringFollowsASpecifiedOrderOrNot(t testing.T) {
-
+func TestDetermineIfCharactersOfAStringFollowsASpecifiedOrderOrNot(t *testing.T) {
+	
 }
 

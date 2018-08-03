@@ -1,9 +1,10 @@
 package dynamicprogramming
+
 import (
 	"testing"
 )
 
-func TestPotsOfGoldGameUsingDynamicProgramming(t testing.T) {
-
+func TestPotsOfGoldGameUsingDynamicProgramming(t *testing.T) {
+	
 }
 

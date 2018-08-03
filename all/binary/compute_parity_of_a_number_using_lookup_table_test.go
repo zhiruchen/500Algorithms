@@ -1,9 +1,10 @@
 package binary
+
 import (
 	"testing"
 )
 
-func TestComputeParityOfANumberUsingLookupTable(t testing.T) {
-
+func TestComputeParityOfANumberUsingLookupTable(t *testing.T) {
+	
 }
 

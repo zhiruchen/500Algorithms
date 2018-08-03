@@ -1,9 +1,10 @@
 package string
+
 import (
 	"testing"
 )
 
-func TestFindAllWordsFromGivenListThatFollowsSameOrderOfCharactersAsGivenPattern(t testing.T) {
-
+func TestFindAllWordsFromGivenListThatFollowsSameOrderOfCharactersAsGivenPattern(t *testing.T) {
+	
 }
 

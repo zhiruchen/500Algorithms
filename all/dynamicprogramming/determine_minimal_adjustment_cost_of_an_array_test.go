@@ -1,9 +1,10 @@
 package dynamicprogramming
+
 import (
 	"testing"
 )
 
-func TestDetermineMinimalAdjustmentCostOfAnArray(t testing.T) {
-
+func TestDetermineMinimalAdjustmentCostOfAnArray(t *testing.T) {
+	
 }
 

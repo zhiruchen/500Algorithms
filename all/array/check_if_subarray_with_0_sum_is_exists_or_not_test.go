@@ -1,9 +1,10 @@
 package array
+
 import (
 	"testing"
 )
 
-func TestCheckIfSubarrayWith0SumIsExistsOrNot(t testing.T) {
-
+func TestCheckIfSubarrayWith0SumIsExistsOrNot(t *testing.T) {
+	
 }
 

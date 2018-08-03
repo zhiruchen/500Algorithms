@@ -1,9 +1,10 @@
 package array
+
 import (
 	"testing"
 )
 
-func TestBinarySearch(t testing.T) {
-
+func TestBinarySearch(t *testing.T) {
+	
 }
 

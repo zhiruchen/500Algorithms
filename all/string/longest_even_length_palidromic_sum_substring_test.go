@@ -1,9 +1,10 @@
 package string
+
 import (
 	"testing"
 )
 
-func TestLongestEvenLengthPalidromicSumSubstring(t testing.T) {
-
+func TestLongestEvenLengthPalidromicSumSubstring(t *testing.T) {
+	
 }
 

@@ -1,9 +1,10 @@
 package string
+
 import (
 	"testing"
 )
 
-func TestCheckIfGivenSentenceIsSyntacticallyCorrectOrNot(t testing.T) {
-
+func TestCheckIfGivenSentenceIsSyntacticallyCorrectOrNot(t *testing.T) {
+	
 }
 

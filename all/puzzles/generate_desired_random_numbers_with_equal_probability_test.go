@@ -1,9 +1,10 @@
 package puzzles
+
 import (
 	"testing"
 )
 
-func TestGenerateDesiredRandomNumbersWithEqualProbability(t testing.T) {
-
+func TestGenerateDesiredRandomNumbersWithEqualProbability(t *testing.T) {
+	
 }
 

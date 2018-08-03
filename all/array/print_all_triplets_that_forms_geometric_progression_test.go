@@ -1,9 +1,10 @@
 package array
+
 import (
 	"testing"
 )
 
-func TestPrintAllTripletsThatFormsGeometricProgression(t testing.T) {
-
+func TestPrintAllTripletsThatFormsGeometricProgression(t *testing.T) {
+	
 }
 

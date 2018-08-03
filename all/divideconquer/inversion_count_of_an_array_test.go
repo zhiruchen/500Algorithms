@@ -1,9 +1,10 @@
 package divideconquer
+
 import (
 	"testing"
 )
 
-func TestInversionCountOfAnArray(t testing.T) {
-
+func TestInversionCountOfAnArray(t *testing.T) {
+	
 }
 
