@@ -3,7 +3,7 @@ package divideconquer
 // FindFloorAndCeilOfANumberInASortedArray http://www.techiedelight.com/find-floor-ceil-number-sorted-array/
 // 在一个排序数组里面寻找x的floor和ceil
 // floor: 数组里面小于等于x的最大的数, ceil: 数组里面大于等于x的最小的数
-func FindFloorAndCeilOfANumberInASortedArray(array []int32, x int32) (floor, ceil int32) {
+func FindFloorAndCeilOfANumberInASortedArray(array []int32, x int32) (ceil, floor int32) {
 	low := 0
 	high := len(array) - 1
 	return getCeil(array, low, high, x), getFloor(array, low, high, x)
