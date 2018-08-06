@@ -7,9 +7,12 @@ type Heap struct {
 }
 
 func NewHeap(arr []int32) *Heap {
-	h := &Heap{nodes: make([]int32, len(arr)+1)}
-	for i := 1; i <= len(arr); i++ {
-		h.nodes[i] = arr[i-1]
+	h := &Heap{}
+	h.nodes = []int32{-1}
+
+	for i := 0; i < len(arr); i++ {
+		h.nodes = append(h.nodes, arr[i])
+		h.siftUp()
 	}
 	return h
 }
@@ -17,6 +20,10 @@ func NewHeap(arr []int32) *Heap {
 func (h *Heap) Add(val int32) {
 	h.nodes = append(h.nodes, val)
 	h.siftUp()
+}
+
+func (h *Heap) Elements() []int32 {
+	return h.nodes[1:]
 }
 
 func (h *Heap) siftUp() {
