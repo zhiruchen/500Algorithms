@@ -39,6 +39,19 @@ func (h *Heap) siftUp() {
 	}
 }
 
+// Pop pop root node
+func (h *Heap) Pop() int32 {
+	if len(h.nodes) <= 1 {
+		return -1
+	}
+
+	top := h.nodes[1]
+	h.nodes[1] = h.nodes[len(h.nodes)-1]
+	h.nodes = h.nodes[0 : len(h.nodes)-1]
+	h.siftDown()
+	return top
+}
+
 func (h *Heap) siftDown() {
 	start := 1
 
@@ -66,6 +79,8 @@ func (h *Heap) siftDown() {
 		if h.nodes[start] < maxVal {
 			h.nodes[start], h.nodes[maxIndex] = h.nodes[maxIndex], h.nodes[start]
 			start = maxIndex
+		} else {
+			break
 		}
 	}
 }
