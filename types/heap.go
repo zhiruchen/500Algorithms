@@ -109,14 +109,10 @@ func (h *Heap) siftDown() {
 				return
 			}
 		}
-
 	}
 }
 
 func (h *Heap) getMaxChild(start int) (val int32, index int) {
-	var maxVal int32
-	var maxIndex int
-
 	left, right := start*2, start*2+1
 	if left >= len(h.nodes) {
 		return -1, -1
@@ -125,18 +121,18 @@ func (h *Heap) getMaxChild(start int) (val int32, index int) {
 	leftChildVal := h.nodes[left]
 
 	if right >= len(h.nodes) {
-		maxVal, maxIndex = leftChildVal, left
-		return maxVal, maxIndex
+		val, index = leftChildVal, left
+		return
 	}
 
 	rightChildVal := h.nodes[right]
 	if leftChildVal > rightChildVal {
-		maxVal, maxIndex = leftChildVal, left
+		val, index = leftChildVal, left
 	} else {
-		maxVal, maxIndex = rightChildVal, right
+		val, index = rightChildVal, right
 	}
 
-	return maxVal, maxIndex
+	return
 }
 
 func (h *Heap) getMinChild(start int) (val int32, index int) {
