@@ -4,7 +4,6 @@ import (
 	"testing"
 )
 
-func TestCalculateSizeOfTheLargestPlusOf1'SInBinaryMatrix(t *testing.T) {
-	
-}
+func TestCalculateSizeOfTheLargestPlusOf1InBinaryMatrix(t *testing.T) {
 
+}
