@@ -15,3 +15,11 @@ func Min(a, b int32) int32 {
 
 	return b
 }
+
+func IntMax(a, b int) int {
+	if a >= b {
+		return a
+	}
+
+	return b
+}
