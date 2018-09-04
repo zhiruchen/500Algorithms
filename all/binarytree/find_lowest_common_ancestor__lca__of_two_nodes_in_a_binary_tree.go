@@ -9,7 +9,7 @@ func FindLowestCommonAncestorLCAOfTwoNodesInABinaryTree(root, x, y *types.BinTre
 	}
 
 	if root.Data == x.Data || root.Data == y.Data {
-		return x
+		return root
 	}
 
 	left := FindLowestCommonAncestorLCAOfTwoNodesInABinaryTree(root.Left, x, y)
