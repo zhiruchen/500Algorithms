@@ -23,3 +23,15 @@ func IntMax(a, b int) int {
 
 	return b
 }
+
+func IntsMin(vals ...int) int {
+	var min = vals[0]
+
+	for _, val := range vals[1:] {
+		if val < min {
+			min = val
+		}
+	}
+
+	return min
+}
