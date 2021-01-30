@@ -35,3 +35,18 @@ https://www.quora.com/Are-there-any-good-resources-or-tutorials-for-dynamic-prog
    将昂贵的计算结果存储起来，当相同的输入出现时可以直接查找结果。
 
 * 确定时间复杂度
+
+
+## Concept
+
+* 可以应用dynamic programming 的问题的两个特征: optimal substructure and overlapping sub-problemss
+
+* Optimal substructure means that the solution to a given optimization problem can be obtained by the combination of optimal solutions to its sub-problems.
+
+* Overlapping sub-problems means that the space of sub-problems must be small, that is, any recursive algorithm solving the problem should solve the same sub-problems over and over, rather than generating new sub-problems.
+
+
+## Useful Links
+
+* https://en.wikipedia.org/wiki/Dynamic_programming
+* https://www.techiedelight.com/introduction-dynamic-programming/
